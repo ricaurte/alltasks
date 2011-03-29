@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/ricaurte/alltasks}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.5.1}
+  s.rubygems_version = %q{1.6.1}
   s.summary = %q{Alltasks makes it painless to require all of the tasks that the gems you installed give you access to.}
   s.test_files = [
     "test/helper.rb",

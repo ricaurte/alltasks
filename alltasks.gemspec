@@ -10,10 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ricaurte"]
   s.date = %q{2011-03-29}
-  s.description = %q{Alltasks makes it easy and painless to get access to all of the rake tasks that the gems you have installed have waiting for you.  Instead of requiring each task or even having to create railties, you can just require 'alltasks' and all the tasks are waiting for you.
-
-Alltasks uses Bundler in order to find the gems to use to find tasks, so every gem listed in your Gemfile.lock will be searched to find tasks inside their load paths.
-}
+  s.description = %q{Alltasks is the simple, painless way to get access to all of the tasks that your gems contain.  All you have to do is require the gem in your Rakefile and you will have access to all of the tasks in your Gemfile.lock for the project.}
   s.email = %q{justin@justinricaurte.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",

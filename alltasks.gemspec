@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ricaurte"]
   s.date = %q{2011-03-29}
-  s.description = %q{Alltasks is the simple, painless way to get access to all of the tasks that your gems contain.  All you have to do is require the gem in your Rakefile and you will have access to all have the tasks that the gems in your Gemfile.lock contain.}
+  s.description = %q{Alltasks is the simple, painless way to get access to all of the tasks that your gems contain.  All you have to do is require the gem in your Rakefile and you will have access to every gems' tasks.}
   s.email = %q{justin@justinricaurte.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -32,7 +32,7 @@ Gem::Specification.new do |s|
   s.homepage = %q{http://github.com/ricaurte/alltasks}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.6.1}
+  s.rubygems_version = %q{1.5.1}
   s.summary = %q{Alltasks makes it painless to require all of the tasks that the gems you installed give you access to.}
   s.test_files = [
     "test/helper.rb",

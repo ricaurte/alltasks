@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "LICENSE.txt",
     "README.rdoc",
     "Rakefile",
+    "alltasks.gemspec",
     "lib/alltasks.rb",
     "test/helper.rb",
     "test/test_alltasks.rb"

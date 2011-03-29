@@ -1,8 +1,8 @@
-= alltasks
+= Alltasks
 
-Description goes here.
+Alltasks makes it easy and painless to get access to all of the rake tasks that the gems you have installed have waiting for you.  Instead of requiring each task or even having to create railties, you can just require 'alltasks' and all the tasks are waiting for you.
 
-== Contributing to alltasks
+== Contributing to Alltasks
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it

@@ -15,13 +15,13 @@ Jeweler::Tasks.new do |gem|
   gem.name = "alltasks"
   gem.homepage = "http://github.com/ricaurte/alltasks"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Alltasks makes it painless to require all of the tasks that the gems you installed give you access to.}
+  gem.description = %Q{Alltasks is the simple, painless way to get access to all of the tasks that your gems contain.  All you have to do is require the gem in your Rakefile and you will have access to every gems' tasks.}
   gem.email = "justin@justinricaurte.com"
   gem.authors = ["Justin Ricaurte"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
-  #  gem.add_runtime_dependency 'jabber4r', '> 0.1'
+  gem.add_runtime_dependency 'bundler', '>= 1.0.10'
   #  gem.add_development_dependency 'rspec', '> 1.2.3'
 end
 Jeweler::RubygemsDotOrgTasks.new

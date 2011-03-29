@@ -16,7 +16,7 @@ Jeweler::Tasks.new do |gem|
   gem.homepage = "http://github.com/ricaurte/alltasks"
   gem.license = "MIT"
   gem.summary = %Q{Alltasks makes it painless to require all of the tasks that the gems you installed give you access to.}
-  gem.description = %Q{Alltasks is the simple, painless way to get access to all of the tasks that your gems contain.  All you have to do is require the gem in your Rakefile and you will have access to all of the tasks in your project's Gemfile.lcok.}
+  gem.description = %Q{Alltasks is the simple, painless way to get access to all of the tasks that your gems contain.  All you have to do is require the gem in your Rakefile and you will have access to all of the tasks from the gems in your project's Gemfile.lcok.}
   gem.email = "justin@justinricaurte.com"
   gem.authors = ["Justin Ricaurte"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,

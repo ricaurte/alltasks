@@ -2,6 +2,8 @@
 
 Alltasks makes it easy and painless to get access to all of the rake tasks that the gems you have installed have waiting for you.  Instead of requiring each task or even having to create railties, you can just require 'alltasks' and all the tasks are waiting for you.
 
+Alltasks uses Bundler in order to find the gems to use to find tasks, so every gem listed in your Gemfile.lock will be searched to find tasks inside their load paths.
+
 == Contributing to Alltasks
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet

@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{alltasks}
-  s.version = "0.1.3"
+  s.version = "0.1.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Justin Ricaurte"]
-  s.date = %q{2011-03-29}
+  s.date = %q{2011-04-11}
   s.description = %q{Alltasks is the simple, painless way to get access to all of the tasks that your gems contain.  All you have to do is require the gem in your Rakefile and you will have access to all of the tasks from the gems in your project's Gemfile.lcok.}
   s.email = %q{justin@justinricaurte.com}
   s.extra_rdoc_files = [

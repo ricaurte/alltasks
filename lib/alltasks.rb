@@ -11,7 +11,11 @@ Bundler.load.specs.each do |spec|
         check_dir = File.join(load_path, path)
         if File.directory?(check_dir)
           Dir["#{check_dir}/**/*.rake".gsub("\\", '/')].each do |name|
-            load name
+            begin
+              load name
+            rescue
+              puts "was not able to load: #{name}"
+            end
           end
         end
       end
